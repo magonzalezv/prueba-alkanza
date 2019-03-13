@@ -26,4 +26,8 @@ export class AppComponent {
     this.img = IMG + this._utilsService.getRandomInt(1, 1084);
     this.show = !this.show;
   }
+
+  hidePoem() {
+    this.show = !this.show;
+  }
 }
